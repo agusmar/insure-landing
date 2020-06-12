@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'DM Serif Display', serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-bar-list {
+    display: none;
+}
+
+.hero {
+    background: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-info h1 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.hero-info p {
+    margin: 20px 0 40px 0;
+    line-height: 1.5;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 98%);
+    text-transform: uppercase;
+}
+
+/* .left-pattern {
+    position: absolute;
+    top: -1%;
+    left: 0%;
+    background: url('./images/bg-pattern-intro-left-mobile.svg') no-repeat;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.right-pattern {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    background: url('./images/bg-pattern-intro-right-mobile.svg') no-repeat;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+} */
+
+.intro-backgrounds {
+    background: no-repeat left bottom / 12.1875em url(./images/),
+        no-repeat right top -5em / 27.25em url(./images/bg-pattern-intro-right-desktop.svg);
+    padding-bottom: 21em;
+    margin-bottom: -21em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+}
