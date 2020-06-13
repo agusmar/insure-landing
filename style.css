@@ -90,3 +90,73 @@ header {
     color: #fafafa;
     text-transform: uppercase;
 }
+
+.insure-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.icon {
+    width: 70px;
+    margin: auto;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.horizontal-line {
+    height: 80px;
+    width: 45%;
+    border-bottom: 1px solid hsl(273, 4%, 51%);
+
+}
+
+.insure-description h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 0 40px 0;
+
+}
+
+.insure-description h2 {
+    font-weight: 500;
+    margin: 20px 0 10px 0;
+}
+
+.insure-description p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: hsl(216, 30%, 68%);
+    margin: 10px 0 40px 0;
+}
+
+.banner {
+    padding: 60px 0;
+    background: hsl(256, 26%, 20%);
+    color: #fafafa;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 30px;
+
+}
+
+.banner::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: top left ;
+    background-image: url('./images/bg-pattern-how-we-work-mobile.svg');
+    background-repeat: no-repeat;
+}
