@@ -221,6 +221,7 @@ footer {
 
 
 @media screen and (min-width: 768px) {
+
     .hamburger-icon {
         display: none;
     }
@@ -260,6 +261,14 @@ footer {
     .button:hover {
         background-color: hsl(270, 9%, 17%);
         color: hsl(0, 0%, 98%);
+    }
+
+    .hero-background {
+        background: yellow;
+        height: 400px;
+        position: absolute;
+        z-index: 1;
+        text-align: center;
     }
 
     .hero {
@@ -346,4 +355,17 @@ footer {
     .banner button {
         margin-right: 20px;
     }
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;       
+      }
+  
+      .footer-links {
+        text-align: left;
+      }  
+  
+      .footer-links ul li {
+        margin-left: 0;
+      }
 }
