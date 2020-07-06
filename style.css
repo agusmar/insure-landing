@@ -360,6 +360,7 @@ footer {
 
   .footer-links {
     text-align: left;
+    margin: 0 20px;
   }
 
   .footer-links ul li {
